@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "miapp-e05c5": {
+      "hosting": {
+        "app": [
+          "miapp-e05c5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "miapp-e05c5"
+  }
+}

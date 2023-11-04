@@ -38,6 +38,13 @@ const routes: Routes = [
     path: 'not-found',
     loadChildren: () => import('./pages/not-found/not-found/not-found.module').then( m => m.NotFoundPageModule)
   },
+  
+  
+
+  {
+    path: 'add-estacionamiento',
+    loadChildren: () => import('./pages/add-estacionamientos/add-estacionamiento/add-estacionamiento.module').then( m => m.AddEstacionamientoPageModule)
+  },
   {
     path: '**',
     loadChildren: () => import('./pages/not-found/not-found/not-found.module').then( m => m.NotFoundPageModule)
